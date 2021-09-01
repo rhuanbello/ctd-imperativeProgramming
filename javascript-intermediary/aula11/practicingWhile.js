@@ -71,19 +71,20 @@ parImpar(30)
 //    Através de um laço while, peça ao usuário que entre com as notas de todos os alunos da sala, um por vez
 //    Por fim, mostre a média aritmética da turma
 
-function alunosSala (alunos, notas) {
-    let i = 0;
-
-    while (i <= alunos) {
-        total = notas
-
+function alunosSala (alunos) {
+    let notas = [7, 5, 6, 5, 6, 10, 7, 9, 9, 9] // Notas de 10 Alunos em Array
+    let total = 0; // Variável que armazena total de Notas
+    let i = 0; // Índice de Array inicia em 0
+    
+    while (i < alunos) { // enquanto o índice for menor que o total de alunos
+        total += notas[i] 
         i++
 
     }
 
     console.log('Número total de alunos é ' + alunos)
-    console.log('A média da turma é ' + (notas / alunos))
+    console.log('A média da turma é ' + (total / alunos))
 
 }
 
-alunosSala(10, 7)
+alunosSala(10)
