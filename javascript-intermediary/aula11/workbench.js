@@ -1,10 +1,5 @@
 // Mesa de Trabalho - Ciclos e Repetições
 
-// // CORRIGIR A FUNÇÃO adicionarElementosDoArray2NoArray1
-// // de forma que o resultado seja o ARRAY 1 + ARRAY 2
-
-// // UTILIZE QUALQUER ESTRUTURA VISTA ATÉ A AULA DE HOJE !!!!!!!
-
 // 1. Começamos a partir de nossa variedade de filmes:
 
 let filmes = ['star wars', 'matrix', 'robot', 'o preço do amanhã', 'a vida é bela']
