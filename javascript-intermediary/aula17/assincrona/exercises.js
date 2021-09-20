@@ -2,14 +2,15 @@
 
 let numPares = [0, 2, 4, 6, 8]
 
-let numImpares = numPares.map((item) => item + 1)
+let numImpares = numPares.map(item => item + 1)
+
 console.log(numImpares)
 
 // Crie um array de nomes, que possua dois índices com o nome Maria, utilize o filter() para obter apenas esses dois índices com o nome Maria
 
 let nomes = ['João', 'Leonardo', 'Maria', 'Chagas', 'Renan', 'Maria']
 
-let nomesFiltrados = nomes.filter((item) => item == 'Maria')
+let nomesFiltrados = nomes.filter(item => item == 'Maria')
 
 console.log(nomesFiltrados)
 
@@ -17,10 +18,7 @@ console.log(nomesFiltrados)
 
 let nums = [1, 5, 9, 3, 7]
 
-let numsFormatted = nums.reduce((anterior, atual) => {
-    return anterior + '-' + atual 
-   
-})
+let numsFormatted = nums.reduce((anterior, atual) => anterior + '-' + atual)
 
 console.log(numsFormatted)
 
@@ -28,4 +26,4 @@ console.log(numsFormatted)
 
 let animais = ['João', 'Leonardo', 'Chagas', 'Renan']
 
-animais.forEach((item) => console.log(`O nome do animal é ${item}`))
+animais.forEach(item => console.log(`O nome do animal é ${item}`))
