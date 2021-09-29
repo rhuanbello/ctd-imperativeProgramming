@@ -83,7 +83,7 @@ console.log(fruta2)
 console.log(fruta3)
 console.log(frutasAmarelas)
 
-// R: Melão, Mamão, Limão, conceito é de desestruturação
+// R: Melãoo, Mamão, Limão, conceito é de desestruturação
 
 }
 {
