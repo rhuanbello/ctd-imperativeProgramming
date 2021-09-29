@@ -42,7 +42,7 @@ verificaNumeros(1, 2)
 // Escreva um programa utilizando a estrutura de switch que imprima o mês de acordo com o número fornecido
 // Quando o enviar o número 9, o retorno será 'Setembro'
 
-let mes = 12;
+let mes = 11;
 console.log('- Exercício 3 - Switch \n')
 
 switch (mes) {
